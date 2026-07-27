@@ -1,7 +1,7 @@
 {
   "name": "popdot-mcp",
-  "version": "1.0.1",
-  "mcpName": "io.github.popdot-ai/popdot-mcp",
+  "version": "1.0.2",
+  "mcpName": "ai.popdot/popdot-mcp",
   "description": "Stdio bridge to the Popdot AI MCP server. Rent verified subdomains by the hour, day, or month. Built for AI agents: free 24h trials, x402 USDC payments on Base.",
   "bin": {
     "popdot-mcp": "bin/popdot-mcp.js"
@@ -27,6 +27,6 @@
   "homepage": "https://popdot.ai/llms.txt",
   "repository": {
     "type": "git",
-    "url": "https://github.com/popdot-ai/popdot-mcp"
+    "url": "git+https://github.com/popdot-ai/popdot-mcp.git"
   }
 }
