@@ -1,0 +1,31 @@
+{
+  "name": "popdot-mcp",
+  "version": "1.0.0",
+  "description": "Stdio bridge to the Popdot AI MCP server. Rent verified subdomains by the hour, day, or month. Built for AI agents: free 24h trials, x402 USDC payments on Base.",
+  "bin": {
+    "popdot-mcp": "bin/popdot-mcp.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "domains",
+    "subdomain",
+    "x402",
+    "ai-agents"
+  ],
+  "author": "Popdot AI",
+  "license": "MIT",
+  "homepage": "https://popdot.ai/llms.txt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/popdot-ai/popdot-mcp"
+  }
+}

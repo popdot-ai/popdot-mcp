@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.popdot-ai/popdot-mcp",
+  "description": "Rent verified subdomains by the hour, day, or month. Built for AI agents: free 24h trials, x402 USDC payments on Base, no account to discover.",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/popdot-ai/popdot-mcp",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "1.0.0"
+  },
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://popdot.ai/api/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "popdot-mcp",
+      "version": "1.0.0",
+      "runtime_hint": "npx"
+    }
+  ]
+}
