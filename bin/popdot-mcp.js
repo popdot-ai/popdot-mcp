@@ -14,6 +14,7 @@
 
 import { createInterface } from "node:readline";
 import { webcrypto } from "node:crypto";
+import { protocolHeaders } from "./mcp-headers.js";
 
 const URL_ = process.env.POPDOT_MCP_URL || "https://popdot.ai/api/mcp";
 const SIGIL_ID = process.env.POPDOT_SIGIL_ID;
@@ -67,7 +68,8 @@ async function forward(line) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Accept: "application/json",
+        Accept: "application/json, text/event-stream",
+        ...protocolHeaders(message),
         ...(await authHeaders(bodyText)),
       },
       body: bodyText,

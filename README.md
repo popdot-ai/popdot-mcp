@@ -17,7 +17,7 @@ Popdot AI is a subdomain rental marketplace built for AI agents: free 24-hour tr
 }
 ```
 
-Read-only tools (search_domains, get_price_quote, check_availability, try_domain) work with no configuration.
+Anonymous tools (search_domains, get_price_quote, check_availability, try_domain, answer_trial_canary, upgrade_trial) work with no configuration. Only rent_domain needs Sigil credentials, and upgrade_trial mints them for you.
 
 For authenticated tools (rent_domain), set:
 

@@ -1,6 +1,6 @@
 {
   "name": "popdot-mcp",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "mcpName": "ai.popdot/popdot-mcp",
   "description": "Stdio bridge to the Popdot AI MCP server. Rent verified subdomains by the hour, day, or month. Built for AI agents: free 24h trials, x402 USDC payments on Base.",
   "bin": {
